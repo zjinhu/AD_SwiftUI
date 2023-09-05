@@ -23,9 +23,8 @@ struct ExampleApp: App {
                 
                 ContentView()
                     .adSplash(adUnitID: "A118974AE60B857E149350ED681FF1B5") {
-                        debugPrint("启动广告关闭")
+                        debugPrint("启动广告关闭,打开内购页面")
                     }
-                
 //                if !shownSlashAD{
 //                    ADSplashView(shownAD: $shownSlashAD, adUnitID: "A118974AE60B857E149350ED681FF1B5")
 //                }
