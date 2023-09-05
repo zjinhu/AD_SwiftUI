@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 #if canImport(TradPlusAds)
 import TradPlusAds
 import AD_SwiftUI
