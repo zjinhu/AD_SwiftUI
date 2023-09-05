@@ -20,7 +20,8 @@ TODO: Add long description of the pod here.
   s.frameworks   = 'SystemConfiguration','CoreGraphics','Foundation','UIKit','DeviceCheck',"SwiftUI","AppTrackingTransparency","JavaScriptCore","CoreLocation","CoreImage","Accelerate","EventKit","EventKitUI"
   
   s.libraries = 'c++','z','sqlite3','xml2','resolv','bz2'
-
+  s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
+  
   s.subspec 'Banner' do |ss|
     ss.dependency 'AD_SwiftUI/Manager'
     ss.source_files = 'Sources/AD_SwiftUI/ADBannerView.swift'
@@ -42,5 +43,14 @@ TODO: Add long description of the pod here.
   end
   
   s.dependency 'TradPlusAdSDK', '9.7.0'
+  s.dependency 'TradPlusAdSDK/AdMobAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/AppLovinAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/MintegralAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/SigmobAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/GDTMobAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/PangleAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/TPCrossAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/CSJAdapter', '9.7.0'
+  s.dependency 'TradPlusAdSDK/BigoAdapter', '9.7.0'
 
 end

@@ -6,20 +6,74 @@ PODS:
     - AD_SwiftUI/Reward (= 0.1.0)
     - AD_SwiftUI/Splash (= 0.1.0)
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Banner (0.1.0):
     - AD_SwiftUI/Manager
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Inter (0.1.0):
     - AD_SwiftUI/Manager
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Manager (0.1.0):
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Reward (0.1.0):
     - AD_SwiftUI/Manager
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Splash (0.1.0):
     - AD_SwiftUI/Manager
     - TradPlusAdSDK (= 9.7.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.7.0)
+    - TradPlusAdSDK/CSJAdapter (= 9.7.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
+    - TradPlusAdSDK/PangleAdapter (= 9.7.0)
+    - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - Ads-CN (5.4.0.9):
     - Ads-CN/BUAdSDK (= 5.4.0.9)
   - Ads-CN/BUAdSDK (5.4.0.9):
@@ -240,7 +294,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AD_SwiftUI: d419bbca1745c92a7691b5b48c6fd70b6b92d8ea
+  AD_SwiftUI: 0f85c44e063ae9cffc167301ba64032661e63810
   Ads-CN: 6019401cf22627c9ce6d937b87bb41fd54bf12fb
   Ads-Global: 37bd513d66565efa349ae5090edcb1cc342d43bf
   AppLovinSDK: f7c78880f52ee909c9b31a12a52ab579ef29edf1
