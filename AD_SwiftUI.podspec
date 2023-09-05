@@ -14,7 +14,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/jackiehu/AD_SwiftUI.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = "15.0"
-
+  s.swift_versions     = ['5.5','5.4','5.9','5.8','5.7','5.6']
   s.requires_arc = true
   s.static_framework = true
   s.frameworks   = 'SystemConfiguration','CoreGraphics','Foundation','UIKit','DeviceCheck',"SwiftUI","AppTrackingTransparency","JavaScriptCore","CoreLocation","CoreImage","Accelerate","EventKit","EventKitUI"

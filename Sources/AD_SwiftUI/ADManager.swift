@@ -9,7 +9,7 @@ import Foundation
 import AdSupport
 import AppTrackingTransparency
 import SwiftUI
-
+import UIKit
 extension View {
     @inlinable
     public func checkADTracking() -> some View {

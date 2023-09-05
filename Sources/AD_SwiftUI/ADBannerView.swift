@@ -5,6 +5,7 @@
 //  Created by 狄烨 on 2023/8/5.
 //
 import SwiftUI
+import UIKit
 #if canImport(TradPlusAds)
 import TradPlusAds
 
