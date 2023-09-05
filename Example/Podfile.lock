@@ -5,6 +5,15 @@ PODS:
     - AD_SwiftUI/Manager (= 0.1.0)
     - AD_SwiftUI/Reward (= 0.1.0)
     - AD_SwiftUI/Splash (= 0.1.0)
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -17,6 +26,15 @@ PODS:
     - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Banner (0.1.0):
     - AD_SwiftUI/Manager
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -29,6 +47,15 @@ PODS:
     - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Inter (0.1.0):
     - AD_SwiftUI/Manager
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -40,6 +67,15 @@ PODS:
     - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Manager (0.1.0):
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -52,6 +88,15 @@ PODS:
     - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Reward (0.1.0):
     - AD_SwiftUI/Manager
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -64,6 +109,15 @@ PODS:
     - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
   - AD_SwiftUI/Splash (0.1.0):
     - AD_SwiftUI/Manager
+    - Ads-CN (= 5.4.0.9)
+    - Ads-Global (= 5.3.1.1)
+    - AppLovinSDK (= 11.11.1)
+    - BigoADS (= 2.3.5)
+    - GDTMobSDK (= 4.14.32)
+    - Google-Mobile-Ads-SDK (= 10.8.0)
+    - MintegralAdSDK (= 7.4.1)
+    - MintegralAdSDK/All (= 7.4.1)
+    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.7.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
@@ -251,24 +305,6 @@ PODS:
 
 DEPENDENCIES:
   - AD_SwiftUI (from `../`)
-  - Ads-CN (= 5.4.0.9)
-  - Ads-Global (= 5.3.1.1)
-  - AppLovinSDK (= 11.11.1)
-  - BigoADS (= 2.3.5)
-  - GDTMobSDK (= 4.14.32)
-  - Google-Mobile-Ads-SDK (= 10.8.0)
-  - MintegralAdSDK (= 7.4.1)
-  - MintegralAdSDK/All (= 7.4.1)
-  - SigmobAd-iOS (= 4.9.3)
-  - TradPlusAdSDK/AdMobAdapter (= 9.7.0)
-  - TradPlusAdSDK/AppLovinAdapter (= 9.7.0)
-  - TradPlusAdSDK/BigoAdapter (= 9.7.0)
-  - TradPlusAdSDK/CSJAdapter (= 9.7.0)
-  - TradPlusAdSDK/GDTMobAdapter (= 9.7.0)
-  - TradPlusAdSDK/MintegralAdapter (= 9.7.0)
-  - TradPlusAdSDK/PangleAdapter (= 9.7.0)
-  - TradPlusAdSDK/SigmobAdapter (= 9.7.0)
-  - TradPlusAdSDK/TPCrossAdapter (= 9.7.0)
 
 SPEC REPOS:
   trunk:
@@ -294,7 +330,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AD_SwiftUI: 0f85c44e063ae9cffc167301ba64032661e63810
+  AD_SwiftUI: 767e4e957dd10990250aa51c47f570a330dc427b
   Ads-CN: 6019401cf22627c9ce6d937b87bb41fd54bf12fb
   Ads-Global: 37bd513d66565efa349ae5090edcb1cc342d43bf
   AppLovinSDK: f7c78880f52ee909c9b31a12a52ab579ef29edf1
@@ -312,6 +348,6 @@ SPEC CHECKSUMS:
   SigmobAd-iOS: 3812ab29f861d3158311ab9c9971174f75ffbaed
   TradPlusAdSDK: 72f2bcc1c447216b9b1fa70cd61f0ecc7c27d298
 
-PODFILE CHECKSUM: 5c88fb6105394ff63edc19ae53a9847fb795fc9c
+PODFILE CHECKSUM: 991650ab3636981e0b4b01bab3f3ac8144ad6595
 
 COCOAPODS: 1.12.1
