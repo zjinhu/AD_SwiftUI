@@ -19,6 +19,23 @@ extension View {
     }
 }
 
+extension View {
+    public func adUnitID(_ adUnitID: String) -> some View {
+        environment(\.adUnitID, adUnitID)
+    }
+}
+
+extension EnvironmentValues {
+    var adUnitID: String? {
+        get { self[AdUnitIDEnvironmentKey.self] }
+        set { self[AdUnitIDEnvironmentKey.self] = newValue }
+    }
+}
+
+struct AdUnitIDEnvironmentKey: EnvironmentKey {
+    static var defaultValue: String?
+}
+
 public class ADManager{
     public static func checkTrackingAuthorization() {
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){

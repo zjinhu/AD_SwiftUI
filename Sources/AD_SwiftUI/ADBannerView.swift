@@ -14,19 +14,21 @@ public struct ADBannerView: UIViewControllerRepresentable {
     @State private var viewSize: CGSize = .zero
     
     private let bannerView = TradPlusAdBanner()
+     
+    @Environment(\.adUnitID) private var adUnitID
     
-    private let adUnitID: String
-    
-    public init(adUnitID: String) {
-        self.adUnitID = adUnitID
-    }
+    public init() { }
     
     public func makeUIViewController(context: Context) -> UIViewController {
         let bannerViewController = BannerViewController()
-        bannerView.setAdUnitID(adUnitID)
-        bannerView.delegate = context.coordinator
-        bannerViewController.view.addSubview(bannerView)
-        bannerViewController.delegate = context.coordinator
+        if let adUnitID{
+            bannerView.delegate = context.coordinator
+            bannerView.setAdUnitID(adUnitID)
+//            bannerView.autoShow = true
+            bannerView.frame = bannerViewController.view.bounds
+            bannerViewController.view.addSubview(bannerView)
+            bannerViewController.delegate = context.coordinator
+        }
         return bannerViewController
     }
     
@@ -37,11 +39,10 @@ public struct ADBannerView: UIViewControllerRepresentable {
     public func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
         debugPrint("size: \(viewSize)")
         guard viewSize != .zero else { return }
-        bannerView.frame = CGRect(x: 0, y: 0, width: viewSize.width, height: viewSize.height)
+        bannerView.setBannerSize(viewSize)
         bannerView.loadAd(withSceneId: nil)
-        
     }
-    
+
     public class Coordinator: NSObject,TradPlusADBannerDelegate,BannerViewControllerWidthDelegate {
         
         let parent: ADBannerView
@@ -54,8 +55,15 @@ public struct ADBannerView: UIViewControllerRepresentable {
             parent.viewSize = size
         }
         
+//        public func showAD(){
+//            if parent.bannerView.isAdReady == true{
+//                parent.bannerView.show(withSceneId: nil)
+//            }
+//        }
+        
         public func tpBannerAdLoaded(_ adInfo: [AnyHashable : Any]) {
             debugPrint("Banner AdLoaded")
+//            showAD()
         }
         
         public func tpBannerAdLoadFailWithError(_ error: Error) {

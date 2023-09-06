@@ -36,12 +36,11 @@ public struct ADInterModifier: ViewModifier {
 }
 
 public struct ADInterView: View {
-    @Binding var showAd: Bool
+
     private let adUnitID: String
     private let adInstanse : InterInstance?
 
-    public init(showAd: Binding<Bool>, adUnitID: String) {
-        self._showAd = showAd
+    public init(adUnitID: String) {
         self.adUnitID = adUnitID
         adInstanse = InterInstance(adUnitID: adUnitID)
         adInstanse?.loadAd()
