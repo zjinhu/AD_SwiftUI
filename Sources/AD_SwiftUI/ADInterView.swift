@@ -14,6 +14,8 @@ extension View {
     public func adInter(adUnitID: String) -> some View {
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
             modifier(ADInterModifier(adUnitID: adUnitID))
+        }else{
+            self
         }
     }
 }

@@ -15,6 +15,8 @@ extension View {
     public func adReward(adUnitID: String, perform action: @escaping () -> ()) -> some View {
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
             modifier(ADRewardModifier(adUnitID: adUnitID, action: action))
+        }else{
+            self
         }
     }
 }

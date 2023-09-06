@@ -16,6 +16,8 @@ extension View {
     public func adSplash(adUnitID: String, perform action: @escaping () -> ()) -> some View {
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
             modifier(ADSplashModifier(adUnitID: adUnitID, action: action))
+        }else{
+            self
         }
     }
 }
