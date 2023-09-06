@@ -17,17 +17,18 @@ public struct ADBannerView: UIViewControllerRepresentable {
      
     @Environment(\.adUnitID) private var adUnitID
     
-    public init() { }
+    public init() {  }
     
     public func makeUIViewController(context: Context) -> UIViewController {
-        let bannerViewController = BannerViewController()
+         let bannerViewController = BannerViewController()
         if let adUnitID{
             bannerView.delegate = context.coordinator
             bannerView.setAdUnitID(adUnitID)
-//            bannerView.autoShow = true
+            bannerView.autoShow = false
             bannerView.frame = bannerViewController.view.bounds
             bannerViewController.view.addSubview(bannerView)
             bannerViewController.delegate = context.coordinator
+            bannerView.loadAd(withSceneId: nil)
         }
         return bannerViewController
     }
@@ -37,10 +38,10 @@ public struct ADBannerView: UIViewControllerRepresentable {
     }
     
     public func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+ 
         debugPrint("size: \(viewSize)")
-        guard viewSize != .zero else { return }
-        bannerView.setBannerSize(viewSize)
-        bannerView.loadAd(withSceneId: nil)
+//        guard viewSize != .zero else { return }
+//        bannerView.setBannerSize(viewSize)
     }
 
     public class Coordinator: NSObject,TradPlusADBannerDelegate,BannerViewControllerWidthDelegate {
@@ -55,15 +56,15 @@ public struct ADBannerView: UIViewControllerRepresentable {
             parent.viewSize = size
         }
         
-//        public func showAD(){
-//            if parent.bannerView.isAdReady == true{
-//                parent.bannerView.show(withSceneId: nil)
-//            }
-//        }
+        public func showAD(){
+            if parent.bannerView.isAdReady == true{
+                parent.bannerView.show(withSceneId: nil)
+            }
+        }
         
         public func tpBannerAdLoaded(_ adInfo: [AnyHashable : Any]) {
             debugPrint("Banner AdLoaded")
-//            showAD()
+            showAD()
         }
         
         public func tpBannerAdLoadFailWithError(_ error: Error) {
