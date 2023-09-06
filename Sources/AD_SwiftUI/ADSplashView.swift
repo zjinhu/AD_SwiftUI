@@ -12,8 +12,11 @@ import Foundation
 import TradPlusAds
 
 extension View {
+    @ViewBuilder
     public func adSplash(adUnitID: String, perform action: @escaping () -> ()) -> some View {
-        modifier(ADSplashModifier(adUnitID: adUnitID, action: action))
+        if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
+            modifier(ADSplashModifier(adUnitID: adUnitID, action: action))
+        }
     }
 }
 

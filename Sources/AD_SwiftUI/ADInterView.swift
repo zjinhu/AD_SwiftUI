@@ -10,8 +10,11 @@ import SwiftUI
 import TradPlusAds
 
 extension View {
+    @ViewBuilder
     public func adInter(adUnitID: String) -> some View {
-        modifier(ADInterModifier(adUnitID: adUnitID))
+        if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
+            modifier(ADInterModifier(adUnitID: adUnitID))
+        }
     }
 }
 

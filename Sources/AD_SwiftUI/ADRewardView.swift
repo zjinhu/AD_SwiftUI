@@ -11,8 +11,11 @@ import SwiftUI
 import TradPlusAds
 
 extension View {
+    @ViewBuilder
     public func adReward(adUnitID: String, perform action: @escaping () -> ()) -> some View {
-        modifier(ADRewardModifier(adUnitID: adUnitID, action: action))
+        if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
+            modifier(ADRewardModifier(adUnitID: adUnitID, action: action))
+        }
     }
 }
 
