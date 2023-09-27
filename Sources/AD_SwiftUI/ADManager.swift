@@ -10,6 +10,8 @@ import AdSupport
 import AppTrackingTransparency
 import SwiftUI
 import UIKit
+import os
+
 extension View {
     @inlinable
     public func checkADTracking() -> some View {
@@ -41,11 +43,11 @@ public class ADManager{
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
             switch ATTrackingManager.trackingAuthorizationStatus {
             case .authorized:
-                debugPrint("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
+                logger.log("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
             case .denied:
-                debugPrint("IDFA denied")
+                logger.log("IDFA denied")
             case .restricted:
-                debugPrint("IDFA restricted")
+                logger.log("IDFA restricted")
             case .notDetermined:
                 showRequestTrackingAuthorizationAlert()
             @unknown default:
@@ -58,9 +60,9 @@ public class ADManager{
         ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
             switch status {
             case .authorized:
-                debugPrint("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
+                logger.log("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
             case .denied, .restricted, .notDetermined:
-                debugPrint("IDFA been denied!!!")
+                logger.log("IDFA been denied!!!")
             @unknown default:
                 fatalError()
             }
@@ -73,11 +75,12 @@ import TradPlusAds
 extension ADManager{
     public static func initTradPlusAds(_ appId: String) {
         if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
+            TradPlus.setLogLevel(MSLogLevel.init(rawValue: 70))
             TradPlus.initSDK(appId) { error in
                 if let error {
-                    debugPrint("SDK初始化Error:\(error)")
+                    logger.log("SDK初始化Error:\(error)")
                 }else{
-                    debugPrint("SDK初始化Success")
+                    logger.log("SDK初始化Success")
                 }
             }
         }
@@ -124,5 +127,21 @@ struct OnFirstAppear: ViewModifier {
 extension View {
     func onFirstAppear(perform action: (() -> Void)? = nil) -> some View {
         modifier(OnFirstAppear(action: action))
+    }
+}
+
+let logger = ADLog()
+
+struct ADLog {
+    private let logger: Logger
+     
+    init(subsystem: String = "ADLog", category: String = "ADLog") {
+        self.logger = Logger(subsystem: subsystem, category: category)
+    }
+}
+ 
+extension ADLog {
+    func log(_ message: String){
+        logger.log("📣\(message)")
     }
 }

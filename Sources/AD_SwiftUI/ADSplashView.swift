@@ -102,28 +102,28 @@ public class SplashAdInstance: NSObject, TradPlusADSplashDelegate {
     }
     
     public func tpSplashAdLoaded(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Splash AdLoaded")
+        logger.log("Splash AdLoaded")
         showAD()
     }
     
     public func tpSplashAdLoadFailWithError(_ error: Error) {
-        debugPrint("Splash AdLoadFail")
+        logger.log("Splash AdLoadFail")
     }
     
     public func tpSplashAdImpression(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Splash AdImpression")
+        logger.log("Splash AdImpression")
     }
     
     public func tpSplashAdShow(_ adInfo: [AnyHashable : Any], didFailWithError error: Error) {
-        debugPrint("Splash AdDidShow:Error\(error)")
+        logger.log("Splash AdDidShow:Error\(error)")
     }
     
     public func tpSplashAdClicked(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Splash AdClicked")
+        logger.log("Splash AdClicked")
     }
     
     public func tpSplashAdDismissed(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Splash Dismissed")
+        logger.log("Splash Dismissed")
         delegate?.closeAD()
         clean()
     }

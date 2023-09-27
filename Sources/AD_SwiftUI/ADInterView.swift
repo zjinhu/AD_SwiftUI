@@ -86,27 +86,27 @@ public class InterInstance: NSObject, TradPlusADInterstitialDelegate {
     }
     
     public func tpInterstitialAdLoaded(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Inter AdLoaded")
+        logger.log("Inter AdLoaded")
     }
     
     public func tpInterstitialAdLoadFailWithError(_ error: Error) {
-        debugPrint("Inter AdLoadFail")
+        logger.log("Inter AdLoadFail")
     }
     
     public func tpInterstitialAdImpression(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Inter AdImpression")
+        logger.log("Inter AdImpression")
     }
     
     public func tpInterstitialAdShow(_ adInfo: [AnyHashable : Any], didFailWithError error: Error) {
-        debugPrint("Inter AdDidShow:Error\(error)")
+        logger.log("Inter AdDidShow:Error\(error)")
     }
     
     public func tpInterstitialAdClicked(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Inter AdClicked")
+        logger.log("Inter AdClicked")
     }
     
     public func tpInterstitialAdDismissed(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Inter AdDismissed")
+        logger.log("Inter AdDismissed")
         clean()
     }
     

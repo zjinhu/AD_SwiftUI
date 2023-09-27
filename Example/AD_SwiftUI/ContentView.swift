@@ -14,7 +14,7 @@ struct ContentView: View {
 
                 Text("点击打开激励广告")
                     .adReward(adUnitID: "D620896F350D9081207BCFD2E74FB2E9") {
-                        debugPrint("Reward + 1")
+                        logger.log("Reward + 1")
                     }
                 
                 NavigationLink {

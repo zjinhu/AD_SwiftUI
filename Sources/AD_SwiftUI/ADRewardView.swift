@@ -72,31 +72,31 @@ public class ADRewardInstance: NSObject, TradPlusADRewardedDelegate {
     }
     
     public func tpRewardedAdLoaded(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Rewarded AdLoaded")
+        logger.log("Rewarded AdLoaded")
     }
     
     public func tpRewardedAdLoadFailWithError(_ error: Error) {
-        debugPrint("Rewarded AdLoadFail")
+        logger.log("Rewarded AdLoadFail")
     }
     
     public func tpRewardedAdImpression(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Rewarded AdImpression")
+        logger.log("Rewarded AdImpression")
     }
     
     public func tpRewardedAdShow(_ adInfo: [AnyHashable : Any], didFailWithError error: Error) {
-        debugPrint("Rewarded AdDidShow:Error\(error)")
+        logger.log("Rewarded AdDidShow:Error\(error)")
     }
     
     public func tpRewardedAdClicked(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Rewarded AdClicked")
+        logger.log("Rewarded AdClicked")
     }
     
     public func tpRewardedAdDismissed(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Rewarded AdDismissed")
+        logger.log("Rewarded AdDismissed")
     }
     
     public func tpRewardedAdReward(_ adInfo: [AnyHashable : Any]) {
-        debugPrint("Rewarded Get")
+        logger.log("Rewarded Get")
         delegate?.getRewardedCount()
     }
  

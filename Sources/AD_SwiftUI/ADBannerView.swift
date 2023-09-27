@@ -39,7 +39,7 @@ public struct ADBannerView: UIViewControllerRepresentable {
     
     public func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
  
-        debugPrint("size: \(viewSize)")
+        logger.log("size: \(viewSize)")
 //        guard viewSize != .zero else { return }
 //        bannerView.setBannerSize(viewSize)
     }
@@ -63,24 +63,24 @@ public struct ADBannerView: UIViewControllerRepresentable {
         }
         
         public func tpBannerAdLoaded(_ adInfo: [AnyHashable : Any]) {
-            debugPrint("Banner AdLoaded")
+            logger.log("Banner AdLoaded")
             showAD()
         }
         
         public func tpBannerAdLoadFailWithError(_ error: Error) {
-            debugPrint("Banner AdLoadFail")
+            logger.log("Banner AdLoadFail")
         }
         
         public func tpBannerAdImpression(_ adInfo: [AnyHashable : Any]) {
-            debugPrint("Banner AdImpression")
+            logger.log("Banner AdImpression")
         }
         
         public func tpBannerAdShow(_ adInfo: [AnyHashable : Any], didFailWithError error: Error) {
-            debugPrint("Banner AdDidShow:Error\(error)")
+            logger.log("Banner AdDidShow:Error\(error)")
         }
         
         public func tpBannerAdClicked(_ adInfo: [AnyHashable : Any]) {
-            debugPrint("Banner AdClicked")
+            logger.log("Banner AdClicked")
         }
     }
 }
