@@ -9,6 +9,22 @@ import UIKit
 #if canImport(TradPlusAds)
 import TradPlusAds
 
+extension View {
+    
+    public func addBanner(adUnitID: String) -> some View {
+        overlay(alignment: .bottom) {
+            if !UserDefaults.standard.bool(forKey: "isPro.InPurchase"){
+                ADBannerView()
+                    .adUnitID(adUnitID)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+            }
+        }
+    }
+
+}
+
+
 public struct ADBannerView: UIViewControllerRepresentable {
     
     @State private var viewSize: CGSize = .zero

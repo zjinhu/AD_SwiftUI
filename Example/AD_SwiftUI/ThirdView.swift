@@ -10,14 +10,14 @@ import AD_SwiftUI
 struct ThirdView: View {
     var body: some View {
         
-        ADLoadingView(isShowing: .constant(true)) {
+//        ADLoadingView(isShowing: .constant(true)) {
             NavigationView {
                 List(["1", "2", "3", "4", "5"], id: \.self) { row in
                     Text(row)
                 }.navigationBarTitle(Text("Loader Test"), displayMode: .large)
             }
-        }
-        .adUnitID("343487E550C2B2BBC2DF1D6540DC18F4")
+//        }
+//        .adUnitID("343487E550C2B2BBC2DF1D6540DC18F4")
 
     }
 }
