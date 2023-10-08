@@ -8,14 +8,13 @@
 import SwiftUI
 import AD_SwiftUI
 struct SecondView: View {
-    @State var shownAD = false
+
     var body: some View {
         
         ZStack{
             Text("Hello, World!")
-            
-            ADInterView(showAd: $shownAD, adUnitID: "FCD85F622AB5CC3DE3728973D1998B9B")
         }
+        .adInter(adUnitID: "C2473827BF2C0AE6355B428078F7F93E")
     }
 }
 

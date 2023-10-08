@@ -9,8 +9,16 @@ import SwiftUI
 import AD_SwiftUI
 struct ThirdView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .adInter(adUnitID: "FCD85F622AB5CC3DE3728973D1998B9B")
+        
+        ADLoadingView(isShowing: .constant(true)) {
+            NavigationView {
+                List(["1", "2", "3", "4", "5"], id: \.self) { row in
+                    Text(row)
+                }.navigationBarTitle(Text("Loader Test"), displayMode: .large)
+            }
+        }
+        .adUnitID("343487E550C2B2BBC2DF1D6540DC18F4")
+
     }
 }
 

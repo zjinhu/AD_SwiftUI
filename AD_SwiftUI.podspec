@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   s.subspec 'Manager' do |ss|
     ss.source_files = 'Sources/AD_SwiftUI/ADManager.swift'
   end
-  
+ 
   s.dependency 'TradPlusAdSDK', '9.8.0'
   s.dependency 'TradPlusAdSDK/AdMobAdapter', '9.8.0'
   s.dependency 'Google-Mobile-Ads-SDK','10.9.0'
@@ -50,15 +50,9 @@ TODO: Add long description of the pod here.
   s.dependency 'TradPlusAdSDK/MintegralAdapter', '9.8.0'
   s.dependency 'MintegralAdSDK' ,'7.4.2'
   s.dependency 'MintegralAdSDK/All','7.4.2'
-  s.dependency 'TradPlusAdSDK/SigmobAdapter', '9.8.0'
-  s.dependency 'SigmobAd-iOS', '4.9.3'
   s.dependency 'TradPlusAdSDK/GDTMobAdapter', '9.8.0'
   s.dependency 'GDTMobSDK', '4.14.40'
-  s.dependency 'TradPlusAdSDK/PangleAdapter', '9.8.0'
-  s.dependency 'Ads-Global', '5.4.0.8'
   s.dependency 'TradPlusAdSDK/TPCrossAdapter', '9.8.0'
-  s.dependency 'TradPlusAdSDK/CSJAdapter', '9.8.0'
-  s.dependency 'Ads-CN', '5.5.0.6'
   s.dependency 'TradPlusAdSDK/BigoAdapter', '9.8.0'
   s.dependency 'BigoADS','4.0.2'
 end
