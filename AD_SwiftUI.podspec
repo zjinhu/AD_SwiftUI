@@ -38,6 +38,10 @@ TODO: Add long description of the pod here.
     ss.dependency 'AD_SwiftUI/Manager'
     ss.source_files = 'Sources/AD_SwiftUI/ADSplashView.swift'
   end
+  s.subspec 'Loading' do |ss|
+    ss.dependency 'AD_SwiftUI/Manager'
+    ss.source_files = 'Sources/AD_SwiftUI/ADLoadingView.swift'
+  end
   s.subspec 'Manager' do |ss|
     ss.source_files = 'Sources/AD_SwiftUI/ADManager.swift'
   end

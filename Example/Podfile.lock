@@ -2,183 +2,114 @@ PODS:
   - AD_SwiftUI (0.1.0):
     - AD_SwiftUI/Banner (= 0.1.0)
     - AD_SwiftUI/Inter (= 0.1.0)
+    - AD_SwiftUI/Loading (= 0.1.0)
     - AD_SwiftUI/Manager (= 0.1.0)
     - AD_SwiftUI/Reward (= 0.1.0)
     - AD_SwiftUI/Splash (= 0.1.0)
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
   - AD_SwiftUI/Banner (0.1.0):
     - AD_SwiftUI/Manager
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
   - AD_SwiftUI/Inter (0.1.0):
     - AD_SwiftUI/Manager
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
+    - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
+  - AD_SwiftUI/Loading (0.1.0):
+    - AD_SwiftUI/Manager
+    - AppLovinSDK (= 11.11.2)
+    - BigoADS (= 4.0.2)
+    - GDTMobSDK (= 4.14.40)
+    - Google-Mobile-Ads-SDK (= 10.9.0)
+    - MintegralAdSDK (= 7.4.2)
+    - MintegralAdSDK/All (= 7.4.2)
+    - TradPlusAdSDK (= 9.8.0)
+    - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
+    - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
+    - TradPlusAdSDK/BigoAdapter (= 9.8.0)
+    - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
+    - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
   - AD_SwiftUI/Manager (0.1.0):
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
   - AD_SwiftUI/Reward (0.1.0):
     - AD_SwiftUI/Manager
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
   - AD_SwiftUI/Splash (0.1.0):
     - AD_SwiftUI/Manager
-    - Ads-CN (= 5.5.0.6)
-    - Ads-Global (= 5.4.0.8)
     - AppLovinSDK (= 11.11.2)
     - BigoADS (= 4.0.2)
     - GDTMobSDK (= 4.14.40)
     - Google-Mobile-Ads-SDK (= 10.9.0)
     - MintegralAdSDK (= 7.4.2)
     - MintegralAdSDK/All (= 7.4.2)
-    - SigmobAd-iOS (= 4.9.3)
     - TradPlusAdSDK (= 9.8.0)
     - TradPlusAdSDK/AdMobAdapter (= 9.8.0)
     - TradPlusAdSDK/AppLovinAdapter (= 9.8.0)
     - TradPlusAdSDK/BigoAdapter (= 9.8.0)
-    - TradPlusAdSDK/CSJAdapter (= 9.8.0)
     - TradPlusAdSDK/GDTMobAdapter (= 9.8.0)
     - TradPlusAdSDK/MintegralAdapter (= 9.8.0)
-    - TradPlusAdSDK/PangleAdapter (= 9.8.0)
-    - TradPlusAdSDK/SigmobAdapter (= 9.8.0)
     - TradPlusAdSDK/TPCrossAdapter (= 9.8.0)
-  - Ads-CN (5.5.0.6):
-    - Ads-CN/BUAdSDK (= 5.5.0.6)
-  - Ads-CN/BUAdSDK (5.5.0.6):
-    - BURelyFoundation/CSJ (= 0.3.0.4)
-  - Ads-Global (5.4.0.8):
-    - Ads-Global/BUAdSDK (= 5.4.0.8)
-  - Ads-Global/BUAdSDK (5.4.0.8):
-    - Ads-Global/BURelyAdSDK
-    - Ads-Global/Dep_Accurate
-  - Ads-Global/BURelyAdSDK (5.4.0.8)
-  - Ads-Global/Dep_Accurate (5.4.0.8):
-    - BURelyFoundation_Global/Pangle (= 0.1.2.5)
   - AppLovinSDK (11.11.2)
   - BigoADS (4.0.2)
-  - BURelyFoundation/AFNetworking (0.3.0.4)
-  - BURelyFoundation/BURelyFoundation (0.3.0.4)
-  - BURelyFoundation/CSJ (0.3.0.4):
-    - BURelyFoundation/BURelyFoundation
-    - BURelyFoundation/HM
-    - BURelyFoundation/NETWork
-  - BURelyFoundation/HM (0.3.0.4)
-  - BURelyFoundation/NETWork (0.3.0.4):
-    - BURelyFoundation/AFNetworking
-  - BURelyFoundation_Global/AFNetworking (0.1.2.5)
-  - BURelyFoundation_Global/APM (0.1.2.5)
-  - BURelyFoundation_Global/Foundation (0.1.2.5):
-    - BURelyFoundation_Global/NETWork
-  - BURelyFoundation_Global/Gecko (0.1.2.5):
-    - BURelyFoundation_Global/Foundation
-  - BURelyFoundation_Global/Header (0.1.2.5)
-  - BURelyFoundation_Global/NETWork (0.1.2.5):
-    - BURelyFoundation_Global/AFNetworking
-  - BURelyFoundation_Global/Pangle (0.1.2.5):
-    - BURelyFoundation_Global/AFNetworking
-    - BURelyFoundation_Global/APM
-    - BURelyFoundation_Global/Foundation
-    - BURelyFoundation_Global/Gecko
-    - BURelyFoundation_Global/Header
-    - BURelyFoundation_Global/NETWork
-    - BURelyFoundation_Global/SDWebImage
-    - BURelyFoundation_Global/YYModel
-    - BURelyFoundation_Global/ZFPlayer
-    - BURelyFoundation_Global/Zip
-  - BURelyFoundation_Global/SDWebImage (0.1.2.5):
-    - BURelyFoundation_Global/Foundation
-  - BURelyFoundation_Global/YYModel (0.1.2.5)
-  - BURelyFoundation_Global/ZFPlayer (0.1.2.5):
-    - BURelyFoundation_Global/Foundation
-    - BURelyFoundation_Global/Zip
-  - BURelyFoundation_Global/Zip (0.1.2.5):
-    - BURelyFoundation_Global/Foundation
   - GDTMobSDK (4.14.40):
     - GDTMobSDK/GDTMobSDK (= 4.14.40)
   - GDTMobSDK/GDTMobSDK (4.14.40)
@@ -280,9 +211,6 @@ PODS:
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.3.1)
-  - SigmobAd-iOS (4.9.3):
-    - SigmobAd-iOS/WindSDK (= 4.9.3)
-  - SigmobAd-iOS/WindSDK (4.9.3)
   - TradPlusAdSDK (9.8.0):
     - TradPlusAdSDK/TradPlusAds (= 9.8.0)
   - TradPlusAdSDK/AdMobAdapter (9.8.0):
@@ -291,15 +219,9 @@ PODS:
     - TradPlusAdSDK/TradPlusAds
   - TradPlusAdSDK/BigoAdapter (9.8.0):
     - TradPlusAdSDK/TradPlusAds
-  - TradPlusAdSDK/CSJAdapter (9.8.0):
-    - TradPlusAdSDK/TradPlusAds
   - TradPlusAdSDK/GDTMobAdapter (9.8.0):
     - TradPlusAdSDK/TradPlusAds
   - TradPlusAdSDK/MintegralAdapter (9.8.0):
-    - TradPlusAdSDK/TradPlusAds
-  - TradPlusAdSDK/PangleAdapter (9.8.0):
-    - TradPlusAdSDK/TradPlusAds
-  - TradPlusAdSDK/SigmobAdapter (9.8.0):
     - TradPlusAdSDK/TradPlusAds
   - TradPlusAdSDK/TPCrossAdapter (9.8.0):
     - TradPlusAdSDK/TradPlusAds
@@ -310,12 +232,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Ads-CN
-    - Ads-Global
     - AppLovinSDK
     - BigoADS
-    - BURelyFoundation
-    - BURelyFoundation_Global
     - GDTMobSDK
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
@@ -324,7 +242,6 @@ SPEC REPOS:
     - MintegralAdSDK
     - nanopb
     - PromisesObjC
-    - SigmobAd-iOS
     - TradPlusAdSDK
 
 EXTERNAL SOURCES:
@@ -332,13 +249,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AD_SwiftUI: 1f1df1c236989c2ebd8937f56ebc5e735ddb0c79
-  Ads-CN: e363a811baf7316b1e80d4abc51ba57b4c63b3d9
-  Ads-Global: 042c8262e8902f9d13988e116b82e18173a41b9f
+  AD_SwiftUI: 0f39f9d1a773903e3fc058b0624026f931330c54
   AppLovinSDK: 86ac2d11e3fda1d2cb5b235fb8a4bbd39ab0ebee
   BigoADS: 0ba705cf96cbdbec44049250651b5bd1239451df
-  BURelyFoundation: f6dc8547c858e7f97c1a0ec31a0c81b62f657892
-  BURelyFoundation_Global: cd9e09f6c9c1fc42944af4fdaef0b60a24a0bc39
   GDTMobSDK: 58fcf958b3f70c5d60867616423f2d3e90dcfecb
   Google-Mobile-Ads-SDK: e81e8b009a182dc8dd14951782efdbb30a5e4510
   GoogleAppMeasurement: 722db6550d1e6d552b08398b69a975ac61039338
@@ -347,9 +260,8 @@ SPEC CHECKSUMS:
   MintegralAdSDK: a7da9c65b3dd69e8194a7b26cec7068b2bade7cc
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  SigmobAd-iOS: 3812ab29f861d3158311ab9c9971174f75ffbaed
   TradPlusAdSDK: f938767c958ae79161e79d20c9218ebb01e4251e
 
 PODFILE CHECKSUM: 991650ab3636981e0b4b01bab3f3ac8144ad6595
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0
