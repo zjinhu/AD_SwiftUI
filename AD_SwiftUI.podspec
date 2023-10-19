@@ -46,14 +46,9 @@ TODO: Add long description of the pod here.
 s.dependency 'TradPlusAdSDK', '9.9.0'
 s.dependency 'TradPlusAdSDK/AdMobAdapter', '9.9.0'
 s.dependency 'Google-Mobile-Ads-SDK','10.10.0'
-s.dependency 'TradPlusAdSDK/AppLovinAdapter', '9.9.0'
-s.dependency 'AppLovinSDK','11.11.3'
 s.dependency 'TradPlusAdSDK/MintegralAdapter', '9.9.0'
 s.dependency 'MintegralAdSDK' ,'7.4.3'
 s.dependency 'MintegralAdSDK/All','7.4.3'
-s.dependency 'TradPlusAdSDK/GDTMobAdapter', '9.9.0'
-s.dependency 'GDTMobSDK', '4.14.42'
 s.dependency 'TradPlusAdSDK/TPCrossAdapter', '9.9.0'
-s.dependency 'TradPlusAdSDK/BigoAdapter', '9.9.0'
-s.dependency 'BigoADS','4.0.3'
+
 end
