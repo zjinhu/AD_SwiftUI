@@ -3,7 +3,7 @@
 
 [![SPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 ![Xcode 14.0+](https://img.shields.io/badge/Xcode-14.0%2B-blue.svg)
-![iOS 14.0+](https://img.shields.io/badge/iOS-14.0%2B-blue.svg)
+![iOS 15.0+](https://img.shields.io/badge/iOS-14.0%2B-blue.svg)
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg)
 ![SwiftUI 3.0+](https://img.shields.io/badge/SwiftUI-3.0%2B-orange.svg)
 
@@ -20,19 +20,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### Cocoapods
 
-1. Add `pod 'AD_SwiftUI'` in Podfile
+1. Add `pod 'AD_SwiftUI', :git => 'https://github.com/jackiehu/AD_SwiftUI.git'` in Podfile
 
 2. Execute `pod install or pod update`
 
 3. Import `import AD_SwiftUI`
 
-### Swift Package Manager
-
-Starting from Xcode 11, the Swift Package Manager is integrated, which is very convenient to use. AD_SwiftUI also supports integration via Swift Package Manager.
-
-Select `File > Swift Packages > Add Pacakage Dependency` in Xcode's menu bar, and enter in the search bar
-
-`https://github.com/jackiehu/AD_SwiftUI`, you can complete the integration
 
 ### Manual Install
 
