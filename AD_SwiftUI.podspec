@@ -43,12 +43,12 @@ TODO: Add long description of the pod here.
     ss.source_files = 'Sources/AD_SwiftUI/ADManager.swift'
   end
  
-s.dependency 'TradPlusAdSDK', '9.9.0'
-s.dependency 'TradPlusAdSDK/AdMobAdapter', '9.9.0'
-s.dependency 'Google-Mobile-Ads-SDK','10.10.0'
-s.dependency 'TradPlusAdSDK/MintegralAdapter', '9.9.0'
-s.dependency 'MintegralAdSDK' ,'7.4.3'
-s.dependency 'MintegralAdSDK/All','7.4.3'
-s.dependency 'TradPlusAdSDK/TPCrossAdapter', '9.9.0'
+s.dependency 'TradPlusAdSDK', '10.2.0''
+s.dependency 'TradPlusAdSDK/AdMobAdapter', '10.2.0''
+s.dependency 'Google-Mobile-Ads-SDK','10.12.0'
+s.dependency 'TradPlusAdSDK/MintegralAdapter', '10.2.0''
+s.dependency 'MintegralAdSDK' ,'7.4.7'
+s.dependency 'MintegralAdSDK/All','7.4.7'
+s.dependency 'TradPlusAdSDK/TPCrossAdapter', '10.2.0''
 
 end
